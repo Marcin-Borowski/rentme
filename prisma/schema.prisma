@@ -1,0 +1,104 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id   Int     @id @default(autoincrement())
+  name String
+  slug String
+  logo String?
+
+  models Model[]
+}
+
+model Model {
+  id       Int    @id @default(autoincrement())
+  brand_id Int
+  name     String
+  slug     String
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  brand Brand @relation(fields: [brand_id], references: [id])
+  cars  Car[]
+}
+
+model Car {
+  id        Int     @id @default(autoincrement())
+  model_id  Int
+  year      Int
+  color     String
+  price     Float   @default(0)
+  status_id Int
+  image     String?
+  milage    Float   @default(0)
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  model  Model     @relation(fields: [model_id], references: [id])
+  status CarStatus @relation(fields: [status_id], references: [id])
+  rental Rental[]
+}
+
+model CarStatus {
+  id   Int    @id @default(autoincrement())
+  name String
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  cars Car[]
+}
+
+model Customer {
+  id          Int    @id @default(autoincrement())
+  firstname   String
+  lastname    String
+  personal_id String @unique
+  email       String @unique
+  phone       String
+  address     String
+  city        String
+  zip         String
+  country     String
+  password    String
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  rental Rental[]
+}
+
+model Rental {
+  id          Int      @id @default(autoincrement())
+  car_id      Int
+  customer_id Int
+  start_date  DateTime
+  end_date    DateTime
+  price       Float    @default(0)
+  note        String?
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  car      Car      @relation(fields: [car_id], references: [id])
+  customer Customer @relation(fields: [customer_id], references: [id])
+}
+
+model Package {
+  id          Int     @id @default(autoincrement())
+  name        String
+  description String?
+  slug        String
+  price       Float   @default(0)
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
