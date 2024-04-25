@@ -46,16 +46,16 @@
       </div>
     </div>
     <div
-      class="flex flex-col w-full p-4 mt-8 bg-white lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0"
+      class="flex flex-col w-full p-4 mt-8 bg-white lg:w-1/3 md:w-1/2 md:ml-auto md:pt-8 md:pb-5 md:mt-0"
     >
       <h2 class="mb-1 text-lg font-medium text-gray-900 title-font">
-        Feedback
+        Informacje kontaktowe
       </h2>
       <p class="mb-5 leading-relaxed text-gray-600">
-        Post-ironic portland shabby chic echo park, banjo fashion axe
+        Zainteresowany/a ? Zostaw dane kontaktowe a my odezwiemy się do Ciebie!
       </p>
       <div class="relative mb-4">
-        <label for="name" class="text-sm leading-7 text-gray-600">Name</label>
+        <label for="name" class="text-sm leading-7 text-gray-600">Imię</label>
         <input
           type="text"
           id="name"
@@ -74,7 +74,7 @@
       </div>
       <div class="relative mb-4">
         <label for="message" class="text-sm leading-7 text-gray-600"
-          >Message</label
+          >Wiadomość</label
         >
         <textarea
           id="message"
@@ -86,9 +86,8 @@
         class="px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
         >Button</button
       >
-      <p class="mt-3 text-xs text-gray-500">
-        Chicharrones blog helvetica normcore iceland tousled brook viral
-        artisan.
+      <p class="mt-3 text-xs text-center text-gray-500">
+        Zobowiązujemy się do ochrony Twoich danych osobowych.
       </p>
     </div>
   </div>

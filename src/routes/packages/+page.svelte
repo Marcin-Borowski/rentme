@@ -4,18 +4,18 @@
       <h1
         class="mb-2 text-3xl font-medium text-gray-900 sm:text-4xl title-font"
       >
-        Pricing
+        Pakiety
       </h1>
       <p class="mx-auto text-base leading-relaxed text-gray-500 lg:w-2/3">
-        Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
+        Wybierz odpowiedni do dwoich potrzeb.
       </p>
       <div
         class="flex mx-auto mt-6 overflow-hidden border-2 border-indigo-500 rounded"
       >
         <button class="px-4 py-1 text-white bg-indigo-500 focus:outline-none"
-          >Monthly</button
+          >Cyklicznie</button
         >
-        <button class="px-4 py-1 focus:outline-none">Annually</button>
+        <button class="px-4 py-1 focus:outline-none">Jednorazowo</button>
       </div>
     </div>
     <div class="flex flex-wrap -m-4">
@@ -24,12 +24,12 @@
           class="relative flex flex-col h-full p-6 overflow-hidden border-2 border-gray-300 rounded-lg"
         >
           <h2 class="mb-1 text-sm font-medium tracking-widest title-font">
-            START
+            Podstawowy
           </h2>
           <h1
             class="pb-4 mb-4 text-5xl leading-none text-gray-900 border-b border-gray-200"
           >
-            Free
+            Darmowy
           </h1>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -46,7 +46,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Darmowa dostawa
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -63,7 +63,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Tumeric plaid portland
+            </span>Śledzenie lokalizacji
           </p>
           <p class="flex items-center mb-6 text-gray-600">
             <span
@@ -80,11 +80,11 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>W pełni zatankowane
           </p>
           <button
             class="flex items-center w-full px-4 py-2 mt-auto text-white bg-gray-400 border-0 rounded focus:outline-none hover:bg-gray-500"
-            >Button
+            >Wybierz
             <svg
               fill="none"
               stroke="currentColor"
@@ -108,7 +108,7 @@
         >
           <span
             class="absolute top-0 right-0 px-3 py-1 text-xs tracking-widest text-white bg-indigo-500 rounded-bl"
-            >POPULAR</span
+            >Najczęściej wybierany</span
           >
           <h2 class="mb-1 text-sm font-medium tracking-widest title-font">
             PRO
@@ -116,7 +116,7 @@
           <h1
             class="flex items-center pb-4 mb-4 text-5xl leading-none text-gray-900 border-b border-gray-200"
           >
-            <span>$38</span>
+            <span>380 PLN</span>
             <span class="ml-1 text-lg font-normal text-gray-500">/mo</span>
           </h1>
           <p class="flex items-center mb-2 text-gray-600">
@@ -134,7 +134,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Dostawa we wskazane miejsce
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -151,7 +151,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Tumeric plaid portland
+            </span>Ubezpieczenie w cenie
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -168,7 +168,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Hexagon neutra unicorn
+            </span>Paliwo w cenie
           </p>
           <p class="flex items-center mb-6 text-gray-600">
             <span
@@ -185,11 +185,11 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>Obsługa klienta 23/7
           </p>
           <button
             class="flex items-center w-full px-4 py-2 mt-auto text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
-            >Button
+            >Wybierz
             <svg
               fill="none"
               stroke="currentColor"
@@ -212,12 +212,12 @@
           class="relative flex flex-col h-full p-6 overflow-hidden border-2 border-gray-300 rounded-lg"
         >
           <h2 class="mb-1 text-sm font-medium tracking-widest title-font">
-            BUSINESS
+            BIZNESOWY
           </h2>
           <h1
             class="flex items-center pb-4 mb-4 text-5xl leading-none text-gray-900 border-b border-gray-200"
           >
-            <span>$56</span>
+            <span>560 PLN</span>
             <span class="ml-1 text-lg font-normal text-gray-500">/mo</span>
           </h1>
           <p class="flex items-center mb-2 text-gray-600">
@@ -235,7 +235,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Śledzenie lokalizacji floty
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -252,7 +252,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Tumeric plaid portland
+            </span>Karta paliwowa w cenie
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -269,7 +269,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Hexagon neutra unicorn
+            </span>Podstawiany w wybrana lokalizację
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -286,7 +286,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Auto zastępcze
           </p>
           <p class="flex items-center mb-6 text-gray-600">
             <span
@@ -303,11 +303,11 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>Pełne ubezpieczenie
           </p>
           <button
             class="flex items-center w-full px-4 py-2 mt-auto text-white bg-gray-400 border-0 rounded focus:outline-none hover:bg-gray-500"
-            >Button
+            >Wybierz
             <svg
               fill="none"
               stroke="currentColor"
@@ -330,12 +330,12 @@
           class="relative flex flex-col h-full p-6 overflow-hidden border-2 border-gray-300 rounded-lg"
         >
           <h2 class="mb-1 text-sm font-medium tracking-widest title-font">
-            SPECIAL
+            Specjalny
           </h2>
           <h1
             class="flex items-center pb-4 mb-4 text-5xl leading-none text-gray-900 border-b border-gray-200"
           >
-            <span>$72</span>
+            <span>720 PLN</span>
             <span class="ml-1 text-lg font-normal text-gray-500">/mo</span>
           </h1>
           <p class="flex items-center mb-2 text-gray-600">
@@ -353,7 +353,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Prywatny kierowca
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -370,7 +370,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Tumeric plaid portland
+            </span>Nielimitowane paliwo
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -387,7 +387,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Hexagon neutra unicorn
+            </span>Dowolny kolor auta
           </p>
           <p class="flex items-center mb-2 text-gray-600">
             <span
@@ -404,7 +404,7 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Pakiet parkingowy
           </p>
           <p class="flex items-center mb-6 text-gray-600">
             <span
@@ -421,11 +421,11 @@
               >
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>Kuloodporne szyby
           </p>
           <button
             class="flex items-center w-full px-4 py-2 mt-auto text-white bg-gray-400 border-0 rounded focus:outline-none hover:bg-gray-500"
-            >Button
+            >Wybierz
             <svg
               fill="none"
               stroke="currentColor"

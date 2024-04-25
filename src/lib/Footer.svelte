@@ -1,3 +1,8 @@
+<script>
+  import Car from "$lib/Car.svelte";
+  import { APP_NAME } from "./constants";
+</script>
+
 <footer class="text-gray-600 body-font">
   <div
     class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap"
@@ -6,23 +11,11 @@
       <a
         class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          class="w-10 h-10 p-2 text-white bg-indigo-500 rounded-full"
-          viewBox="0 0 24 24"
-        >
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-          ></path>
-        </svg>
-        <span class="ml-3 text-xl">Tailblocks</span>
+        <Car class="h-16" />
+        <span class="ml-3 text-xl">{APP_NAME}</span>
       </a>
       <p class="mt-2 text-sm text-gray-500">
-        Air plant banjo lyft occupy retro adaptogen indego
+        Wypożyczalnia samochodów online, teraz łatwiej niż kiedykolwiek.
       </p>
     </div>
     <div
@@ -32,7 +25,28 @@
         <h2
           class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
         >
-          CATEGORIES
+          Samochody
+        </h2>
+        <nav class="mb-10 list-none">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Rodzinny</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Sportowy</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Terenowy</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Busy</a>
+          </li>
+        </nav>
+      </div>
+      <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+        <h2
+          class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
+        >
+          Oferta
         </h2>
         <nav class="mb-10 list-none">
           <li>
@@ -53,7 +67,7 @@
         <h2
           class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
         >
-          CATEGORIES
+          Pakiety
         </h2>
         <nav class="mb-10 list-none">
           <li>
@@ -74,41 +88,25 @@
         <h2
           class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
         >
-          CATEGORIES
+          Kontakt
         </h2>
         <nav class="mb-10 list-none">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Polska, 61-965 </a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+            <a class="text-gray-600 hover:text-gray-800"
+              >Poznań, ul.Piotrkowo 2</a
+            >
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+            <a class="text-gray-600 hover:text-gray-800">Tel: +48 123-456-789</a
+            >
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-        <h2
-          class="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font"
-        >
-          CATEGORIES
-        </h2>
-        <nav class="mb-10 list-none">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+            <a class="text-gray-600 hover:text-gray-800"
+              >Email: Contact@rentme.pl</a
+            >
           </li>
         </nav>
       </div>
@@ -119,13 +117,7 @@
       class="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row"
     >
       <p class="text-sm text-center text-gray-500 sm:text-left">
-        © 2020 Tailblocks —
-        <a
-          href="https://twitter.com/knyttneve"
-          rel="noopener noreferrer"
-          class="ml-1 text-gray-600"
-          target="_blank">@knyttneve</a
-        >
+        © 2024 ETI — All rights reserved.
       </p>
       <span
         class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start"
