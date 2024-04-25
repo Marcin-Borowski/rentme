@@ -49,3 +49,5 @@
     </form>
   {/if}
 </main>
+
+<!-- Przykładowy komentaz -->
